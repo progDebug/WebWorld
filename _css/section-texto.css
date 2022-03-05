@@ -1,0 +1,12 @@
+section.texto h1{
+    text-transform: uppercase;
+    color: slategray;
+    text-align: center;
+}
+section.texto p{
+    color: slategray;
+    text-align: center;
+}
+section.texto h1 span{
+    color: rgb(48, 54, 59);
+}

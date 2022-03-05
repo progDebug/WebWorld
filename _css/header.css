@@ -1,0 +1,53 @@
+/*Header alto*/
+
+header .header-alto{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 5px 20px;
+}
+/*Header baixo*/
+
+header .header-baixo{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+    padding-bottom: 0px;
+}
+header .header-baixo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+}
+
+header .header-baixo li a{
+    text-decoration: none;
+    color: slategray;
+    margin: 10px;
+    padding: 20px;
+}
+
+header .header-baixo li.ativo a{
+    color: turquoise;
+    border-bottom: 1px solid turquoise;
+}
+
+header .header-baixo form{
+    display: flex;
+    height: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 1px solid slategray;
+    padding:5px;
+}
+header .header-baixo input{
+    flex-grow: 1;
+    border: 0px;
+}
+header .header-baixo img{
+    flex-grow: 1;
+}
